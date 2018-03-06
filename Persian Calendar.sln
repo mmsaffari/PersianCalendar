@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianCalendar", "PersianCalendar\PersianCalendar.csproj", "{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -18,6 +20,26 @@ Global
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|ARM.Build.0 = Debug|ARM
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|x64.ActiveCfg = Debug|x64
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|x64.Build.0 = Debug|x64
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|x64.Deploy.0 = Debug|x64
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|x86.ActiveCfg = Debug|x86
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|x86.Build.0 = Debug|x86
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Debug|x86.Deploy.0 = Debug|x86
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|ARM.ActiveCfg = Release|ARM
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|ARM.Build.0 = Release|ARM
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|ARM.Deploy.0 = Release|ARM
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|x64.ActiveCfg = Release|x64
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|x64.Build.0 = Release|x64
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|x64.Deploy.0 = Release|x64
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|x86.ActiveCfg = Release|x86
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|x86.Build.0 = Release|x86
+		{CD6212D8-ACE3-4B1F-B88A-F6D764198F7D}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
