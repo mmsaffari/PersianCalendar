@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" IgnorableNamespaces="uap mp uap2">
   <Identity Name="6506761d-2fdd-418b-a771-d781133b4921" Publisher="CN=M.Saffari" Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="6506761d-2fdd-418b-a771-d781133b4921" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
@@ -25,5 +25,9 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="appointments" />
+    <uap:Capability Name="contacts" />
+    <uap2:Capability Name="spatialPerception" />
+    <DeviceCapability Name="location" />
   </Capabilities>
 </Package>
