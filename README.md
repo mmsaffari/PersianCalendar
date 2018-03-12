@@ -1,9 +1,8 @@
 # Persian Calendar
-
 Persian Calendar is a calendar application specifically designed for Windows 10.
 List of features will complete over time.
 
-Features:
+Features
 -----
 * Different views (Day, Week, Month and Year)
 * Date converter
