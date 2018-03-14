@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel;
 using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -29,7 +30,7 @@ namespace PersianCalendar {
 			Window.Current.SetTitleBar(AppTitleBar);
 			coreTitleBar.LayoutMetricsChanged += CoreTitleBar_LayoutMetricsChanged;
 			coreTitleBar.IsVisibleChanged += CoreTitleBar_IsVisibleChanged;
-			txtDisplayName.Text = "تقوسم قارسی";
+			txtDisplayName.Text = string.Format("{0}", Package.Current.DisplayName);
 
 		}
 

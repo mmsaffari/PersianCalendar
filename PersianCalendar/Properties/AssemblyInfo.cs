@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PersianCalendar")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("تقویم فارسی")]
+[assembly: AssemblyDescription("تقویم فارسی")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PersianCalendar")]
+[assembly: AssemblyProduct("تقویم فارسی")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
